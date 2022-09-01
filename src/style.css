@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 100%;
+    background-image: url('https://pbs.twimg.com/media/DVMT-6OXcAE2rZY.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .page-logo {
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+.corpo{
+  font-family: fantasy;
+  text-align: center;
+  color: yellow;
+  font-size: 25px;
+  padding: 20px;
+  height: 100vh;  
+  }
+
+input {
+  font-family: fantasy;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 10px;
+  height: 40px;
+  width: 340px;
+  margin-bottom:10px;
+}
+
+button{
+  font-size: 25px;
+  font-family: fantasy;
+  width: 340px;
+  height: 50px;
+  background-color: transparent;
+  color: yellow;
+  cursor: pointer;
+  border-color: black;
+  box-shadow: 4px 4px black;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.sombra{
+  width: 400px;
+  height: 300px;
+}
+
+footer{
+  color:yellow;
+  text-align:center;
+}
